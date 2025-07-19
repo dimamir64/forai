@@ -1,0 +1,293 @@
+страница
+https://flood.sputnik-germes.ru/index.php?option=com_content&view=article&id=25&kontragent=3&id_people=116412
+
+Журнал браузера:
+index.php:1 [Intervention] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://flood.sputnik-germes.ru/fonts/PTSansRegular/PTSansRegular.woff
+2.1/?lang=ru_RU:1 (Yandex Maps JS API): Invalid API key
+ymapsInit @ 2.1/?lang=ru_RU:1
+(анонимная) @ 2.1/?lang=ru_RU:1
+index.php:628 
+            
+            
+           GET https://flood.sputnik-germes.ru/js_new/de/dx.fluent.light.css net::ERR_ABORTED 404 (Not Found)
+index.php?option=com_content&view=article&id=25&kontragent=3&id_people=116412:1555 trackGoal цель № 2
+jquery-3.2.1.min.js:2 jQuery.Deferred exception: $.cookie is not a function TypeError: $.cookie is not a function
+    at HTMLDocument.<anonymous> (https://flood.sputnik-germes.ru/js_new/germes_menu.js:10:24)
+    at j (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:29999)
+    at k (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:30313) undefined
+r.Deferred.exceptionHook @ jquery-3.2.1.min.js:2
+k @ jquery-3.2.1.min.js:2
+setTimeout
+(анонимная) @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+fire @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+ready @ jquery-3.2.1.min.js:2
+S @ jquery-3.2.1.min.js:3
+jquery-3.2.1.min.js:2 jQuery.Deferred exception: $.cookie is not a function TypeError: $.cookie is not a function
+    at HTMLDocument.<anonymous> (https://flood.sputnik-germes.ru/js_new/germes_menu.js:10:24)
+    at j (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:29999)
+    at k (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:30313) undefined
+r.Deferred.exceptionHook @ jquery-3.2.1.min.js:2
+k @ jquery-3.2.1.min.js:2
+setTimeout
+(анонимная) @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+fire @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+ready @ jquery-3.2.1.min.js:2
+S @ jquery-3.2.1.min.js:3
+jquery-3.2.1.min.js:2 jQuery.Deferred exception: $(...).mask is not a function TypeError: $(...).mask is not a function
+    at HTMLDocument.<anonymous> (https://flood.sputnik-germes.ru/index.php?option=com_content&view=article&id=25&kontragent=3&id_people=116412:498:40)
+    at j (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:29999)
+    at k (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:30313) undefined
+r.Deferred.exceptionHook @ jquery-3.2.1.min.js:2
+k @ jquery-3.2.1.min.js:2
+setTimeout
+(анонимная) @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+fire @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+ready @ jquery-3.2.1.min.js:2
+S @ jquery-3.2.1.min.js:3
+jquery-3.2.1.min.js:2 Uncaught TypeError: $.cookie is not a function
+    at HTMLDocument.<anonymous> (VM103 germes_menu.js:10:24)
+    at j (jquery-3.2.1.min.js:2:29999)
+    at k (jquery-3.2.1.min.js:2:30313)
+(анонимная) @ VM103 germes_menu.js:10
+j @ jquery-3.2.1.min.js:2
+k @ jquery-3.2.1.min.js:2
+setTimeout
+(анонимная) @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+fire @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+ready @ jquery-3.2.1.min.js:2
+S @ jquery-3.2.1.min.js:3
+jquery-3.2.1.min.js:2 Uncaught TypeError: $.cookie is not a function
+    at HTMLDocument.<anonymous> (germes_menu.js:10:24)
+    at j (jquery-3.2.1.min.js:2:29999)
+    at k (jquery-3.2.1.min.js:2:30313)
+(анонимная) @ germes_menu.js:10
+j @ jquery-3.2.1.min.js:2
+k @ jquery-3.2.1.min.js:2
+setTimeout
+(анонимная) @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+fire @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+ready @ jquery-3.2.1.min.js:2
+S @ jquery-3.2.1.min.js:3
+jquery-3.2.1.min.js:2 Uncaught TypeError: $(...).mask is not a function
+    at HTMLDocument.<anonymous> (index.php?option=com_content&view=article&id=25&kontragent=3&id_people=116412:498:40)
+    at j (jquery-3.2.1.min.js:2:29999)
+    at k (jquery-3.2.1.min.js:2:30313)
+(анонимная) @ index.php?option=com_content&view=article&id=25&kontragent=3&id_people=116412:498
+j @ jquery-3.2.1.min.js:2
+k @ jquery-3.2.1.min.js:2
+setTimeout
+(анонимная) @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+fire @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+ready @ jquery-3.2.1.min.js:2
+S @ jquery-3.2.1.min.js:3
+jquery.min.js:2 Uncaught Error: E0021 - Unknown theme is set: null. See:
+http://js.devexpress.com/error/23_1/E0021
+    at d (dx.all.js:9:1014729)
+    at Object.Error (dx.all.js:9:1014245)
+    at Object.M [as current] (dx.all.js:9:4354539)
+    at HTMLDocument.<anonymous> (index.php?option=com_content&view=article&id=25&kontragent=3&id_people=116412:797:30)
+    at e (jquery.min.js:2:30038)
+    at t (jquery.min.js:2:30340)
+d @ dx.all.js:9
+Error @ dx.all.js:9
+M @ dx.all.js:9
+(анонимная) @ index.php?option=com_content&view=article&id=25&kontragent=3&id_people=116412:797
+e @ jquery.min.js:2
+t @ jquery.min.js:2
+setTimeout
+(анонимная) @ jquery.min.js:2
+c @ jquery.min.js:2
+fireWith @ jquery.min.js:2
+fire @ jquery.min.js:2
+c @ jquery.min.js:2
+fireWith @ jquery.min.js:2
+ready @ jquery.min.js:2
+B @ jquery.min.js:2
+dx.all.js:9 W0004 - Timeout for theme loading is over: any. See:
+http://js.devexpress.com/error/23_1/W0004
+log @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+setInterval
+E @ dx.all.js:9
+M @ dx.all.js:9
+P @ dx.all.js:9
+G @ dx.all.js:9
+75811 @ dx.all.js:9
+n @ dx.all.js:19
+2492 @ dx.all.js:9
+n @ dx.all.js:19
+97218 @ dx.all.js:9
+n @ dx.all.js:19
+5332 @ dx.all.js:9
+n @ dx.all.js:19
+11385 @ dx.all.js:9
+n @ dx.all.js:19
+8572 @ dx.all.js:9
+n @ dx.all.js:19
+2994 @ dx.all.js:9
+n @ dx.all.js:19
+36991 @ dx.all.js:9
+n @ dx.all.js:19
+85357 @ dx.all.js:9
+n @ dx.all.js:19
+94620 @ dx.all.js:9
+n @ dx.all.js:19
+2025 @ dx.all.js:9
+n @ dx.all.js:19
+16354 @ dx.all.js:9
+n @ dx.all.js:19
+(анонимная) @ dx.all.js:19
+(анонимная) @ dx.all.js:19
+
+
+index.php:1 [Intervention] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://flood.sputnik-germes.ru/fonts/PTSansRegular/PTSansRegular.woff
+2.1/?lang=ru_RU:1 (Yandex Maps JS API): Invalid API key
+ymapsInit @ 2.1/?lang=ru_RU:1
+(анонимная) @ 2.1/?lang=ru_RU:1
+index.php:628 
+
+страница
+https://flood.sputnik-germes.ru/index.php?option=com_content&view=article&id=25&kontragent=3            
+            
+           GET https://flood.sputnik-germes.ru/js_new/de/dx.fluent.light.css net::ERR_ABORTED 404 (Not Found)
+index.php?option=com_content&view=article&id=25&kontragent=3:1093 trackGoal цель № 2
+jquery-3.2.1.min.js:2 jQuery.Deferred exception: $.cookie is not a function TypeError: $.cookie is not a function
+    at HTMLDocument.<anonymous> (https://flood.sputnik-germes.ru/js_new/germes_menu.js:10:24)
+    at j (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:29999)
+    at k (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:30313) undefined
+r.Deferred.exceptionHook @ jquery-3.2.1.min.js:2
+k @ jquery-3.2.1.min.js:2
+setTimeout
+(анонимная) @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+fire @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+ready @ jquery-3.2.1.min.js:2
+S @ jquery-3.2.1.min.js:3
+jquery-3.2.1.min.js:2 jQuery.Deferred exception: $.cookie is not a function TypeError: $.cookie is not a function
+    at HTMLDocument.<anonymous> (https://flood.sputnik-germes.ru/js_new/germes_menu.js:10:24)
+    at j (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:29999)
+    at k (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:30313) undefined
+r.Deferred.exceptionHook @ jquery-3.2.1.min.js:2
+k @ jquery-3.2.1.min.js:2
+setTimeout
+(анонимная) @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+fire @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+ready @ jquery-3.2.1.min.js:2
+S @ jquery-3.2.1.min.js:3
+jquery-3.2.1.min.js:2 jQuery.Deferred exception: $(...).mask is not a function TypeError: $(...).mask is not a function
+    at HTMLDocument.<anonymous> (https://flood.sputnik-germes.ru/index.php?option=com_content&view=article&id=25&kontragent=3:498:40)
+    at j (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:29999)
+    at k (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:30313) undefined
+r.Deferred.exceptionHook @ jquery-3.2.1.min.js:2
+k @ jquery-3.2.1.min.js:2
+setTimeout
+(анонимная) @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+fire @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+ready @ jquery-3.2.1.min.js:2
+S @ jquery-3.2.1.min.js:3
+jquery-3.2.1.min.js:2 Uncaught TypeError: $.cookie is not a function
+    at HTMLDocument.<anonymous> (VM2203 germes_menu.js:10:24)
+    at j (jquery-3.2.1.min.js:2:29999)
+    at k (jquery-3.2.1.min.js:2:30313)
+(анонимная) @ VM2203 germes_menu.js:10
+j @ jquery-3.2.1.min.js:2
+k @ jquery-3.2.1.min.js:2
+setTimeout
+(анонимная) @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+fire @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+ready @ jquery-3.2.1.min.js:2
+S @ jquery-3.2.1.min.js:3
+jquery-3.2.1.min.js:2 Uncaught TypeError: $.cookie is not a function
+    at HTMLDocument.<anonymous> (germes_menu.js:10:24)
+    at j (jquery-3.2.1.min.js:2:29999)
+    at k (jquery-3.2.1.min.js:2:30313)
+(анонимная) @ germes_menu.js:10
+j @ jquery-3.2.1.min.js:2
+k @ jquery-3.2.1.min.js:2
+setTimeout
+(анонимная) @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+fire @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+ready @ jquery-3.2.1.min.js:2
+S @ jquery-3.2.1.min.js:3
+jquery-3.2.1.min.js:2 Uncaught TypeError: $(...).mask is not a function
+    at HTMLDocument.<anonymous> (index.php?option=com_content&view=article&id=25&kontragent=3:498:40)
+    at j (jquery-3.2.1.min.js:2:29999)
+    at k (jquery-3.2.1.min.js:2:30313)
+(анонимная) @ index.php?option=com_content&view=article&id=25&kontragent=3:498
+j @ jquery-3.2.1.min.js:2
+k @ jquery-3.2.1.min.js:2
+setTimeout
+(анонимная) @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+fire @ jquery-3.2.1.min.js:2
+i @ jquery-3.2.1.min.js:2
+fireWith @ jquery-3.2.1.min.js:2
+ready @ jquery-3.2.1.min.js:2
+S @ jquery-3.2.1.min.js:3
+jquery.min.js:2 Uncaught Error: E0021 - Unknown theme is set: null. See:
+http://js.devexpress.com/error/23_1/E0021
+    at d (dx.all.js:9:1014729)
+    at Object.Error (dx.all.js:9:1014245)
+    at Object.M [as current] (dx.all.js:9:4354539)
+    at HTMLDocument.<anonymous> (index.php?option=com_content&view=article&id=25&kontragent=3:797:30)
+    at e (jquery.min.js:2:30038)
+    at t (jquery.min.js:2:30340)
+d @ dx.all.js:9
+Error @ dx.all.js:9
+M @ dx.all.js:9
+(анонимная) @ index.php?option=com_content&view=article&id=25&kontragent=3:797
+e @ jquery.min.js:2
+t @ jquery.min.js:2
+setTimeout
+(анонимная) @ jquery.min.js:2
+c @ jquery.min.js:2
+fireWith @ jquery.min.js:2
+fire @ jquery.min.js:2
+c @ jquery.min.js:2
+fireWith @ jquery.min.js:2
+ready @ jquery.min.js:2
+B @ jquery.min.js:2
