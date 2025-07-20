@@ -6,29 +6,29 @@ Hide passed testsCheck for GlobalsNo try-catchFilter:
  GoModule: 
 All modules
 QUnit 2.24.1; Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 YaBrowser/25.6.0.0 Safari/537.36
-10 / 16 tests completed.
-Running: Frontend Kontragent UI Tests: Список контрагентов: Кнопка "Редактировать" в гриде открывает новое окно и логирует
-Rerun 10 failed testsAbort
+16 tests completed in 43814 milliseconds, with 16 failed, 0 skipped, and 0 todo.
+16 assertions of 74 passed, 58 failed.
+Rerun 16 failed tests
 
-Frontend Kontragent UI Tests: Список контрагентов: Инициализация кнопок и грида (5, 3, 8)Rerun10009 ms
-beforeEach failed on Список контрагентов: Инициализация кнопок и грида: sinon is not defined@ 3 ms
+Frontend Kontragent UI Tests: Список контрагентов: Инициализация кнопок и грида (4, 3, 7)Rerun2009 ms
+beforeEach failed on Список контрагентов: Инициализация кнопок и грида: sinon is not defined@ 2 ms
 Source: 	
 ReferenceError: sinon is not defined
-    at Object.beforeEach (https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:31:25)
-Test took longer than 10000ms; test timed out.@ 10003 ms
-Контролы списка видны@ 10006 ms
+    at Object.beforeEach (https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:32:25)
+Test took longer than 2000ms; test timed out.@ 2002 ms
+Контролы списка видны@ 2006 ms
 Expected: 	
 true
 Result: 	
 false
 Source: 	
-    at Object.<anonymous> (https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:105:68)
-Грид контрагентов виден@ 10007 ms
-Форма контрагента скрыта@ 10007 ms
-Кнопки формы скрыты@ 10007 ms
+    at Object.<anonymous> (https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:104:12)
+Грид контрагентов виден@ 2007 ms
+Форма контрагента скрыта@ 2007 ms
+Кнопки формы скрыты@ 2007 ms
 Died on test #7: E0009 - Component 'dxButton' has not been initialized for an element. See:
 http://js.devexpress.com/error/23_1/E0009
-    at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:104:7@ 10008 ms
+    at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:102:7@ 2008 ms
 Source: 	
 Error: E0009 - Component 'dxButton' has not been initialized for an element. See:
 http://js.devexpress.com/error/23_1/E0009
@@ -39,976 +39,58 @@ http://js.devexpress.com/error/23_1/E0009
     at ce.fn.init.each (https://flood.sputnik-germes.ru/js_new/jquery-3.7.1.min.js:2:1594)
     at o.default.add.i.default.fn.<computed> [as dxButton] (https://flood.sputnik-germes.ru/js_new/de/dx.all.js:9:1286666)
     at Object.<anonymous> (https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:110:39)
-afterEach failed on Список контрагентов: Инициализация кнопок и грида: Cannot read properties of undefined (reading 'restore')@ 10008 ms
-Source: 	
-TypeError: Cannot read properties of undefined (reading 'restore')
-    at Object.afterEach (https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:60:23)
-Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:104:7
+Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:102:7
 
-Frontend Kontragent UI Tests: Список контрагентов: Смена фильтра статуса вызывает refresh грида и логирует (4, 0, 4)Rerun10003 ms
-Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:153:7
+Frontend Kontragent UI Tests: Список контрагентов: Кнопка "Обновить" вызывает refresh грида и логирует (3, 0, 3)Rerun2004 ms
+Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:121:7
 
-Frontend Kontragent UI Tests: Форма редактирования: Инициализация кнопок и формы (4, 11, 15)Rerun10434 ms
+Frontend Kontragent UI Tests: Список контрагентов: Кнопка "Добавить контрагента" открывает новое окно и логирует (4, 0, 4)Rerun4031 ms
+Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:137:7
+
+Frontend Kontragent UI Tests: Список контрагентов: Смена фильтра статуса вызывает refresh грида и логирует (3, 0, 3)Rerun2012 ms
+Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:155:7
+
+Frontend Kontragent UI Tests: Список контрагентов: Кнопка "Редактировать" в гриде открывает новое окно и логирует (3, 0, 3)Rerun2088 ms
+Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:175:7
+
+Frontend Kontragent UI Tests: Список контрагентов: Кнопка "Удалить" в гриде вызывает AJAX и обновляет грид (3, 0, 3)Rerun2012 ms
+Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:204:10
+
+Frontend Kontragent UI Tests: Список контрагентов: Кнопка "Восстановить" в гриде вызывает AJAX и обновляет грид (3, 0, 3)Rerun2011 ms
+Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:238:7
+
+Frontend Kontragent UI Tests: Форма редактирования: Инициализация кнопок и формы (3, 11, 14)Rerun2441 ms
 Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:277:7
 
-Frontend Kontragent UI Tests: Форма редактирования: Изменение региона обновляет список городов (4, 0, 4)Rerun10314 ms
-Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:382:7
+Frontend Kontragent UI Tests: Форма редактирования: Кнопка "К списку" перенаправляет и логирует (3, 0, 3)Rerun2308 ms
+Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:305:7
 
-Frontend Kontragent UI Tests: Форма редактирования: Добавление нового договора открывает попап и логирует (5, 0, 5)Rerun20014 ms
-Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:413:7
+Frontend Kontragent UI Tests: Форма редактирования: Кнопка "Сохранить" вызывает AJAX с данными формы и логирует (3, 0, 3)Rerun2284 ms
+Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:322:7
 
-Frontend Kontragent UI Tests: Форма редактирования: Сохранение нового договора вызывает AJAX и обновляет список UI (5, 0, 5)Rerun21436 ms
-Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:439:7
+Frontend Kontragent UI Tests: Форма редактирования: Переключение "Является туроператором" показывает/скрывает блок оператора (6, 2, 8)Rerun4070 ms
+Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:354:7
 
-Frontend Kontragent UI Tests: Форма редактирования: Удаление договора вызывает AJAX и удаляет из списка UI (4, 0, 4)Rerun12998 ms
-Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:491:7
+Frontend Kontragent UI Tests: Форма редактирования: Изменение региона обновляет список городов (4, 0, 4)Rerun4063 ms
+Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:387:7
 
-Frontend Kontragent UI Tests: Логирование клиентских уведомлений: logClientNotify отправляет AJAX запрос (4, 0, 4)Rerun12000 ms
-Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:539:7
+Frontend Kontragent UI Tests: Форма редактирования: Добавление нового договора открывает попап и логирует (5, 0, 5)Rerun4058 ms
+Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:418:7
 
-Frontend Kontragent UI Tests: Список контрагентов: Кнопка "Обновить" вызывает refresh грида и логирует (4, 0, 4)Rerun11999 ms
-Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:121:7
+Frontend Kontragent UI Tests: Форма редактирования: Сохранение нового договора вызывает AJAX и обновляет список UI (5, 0, 5)Rerun4065 ms
+Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:443:7
+
+Frontend Kontragent UI Tests: Форма редактирования: Удаление договора вызывает AJAX и удаляет из списка UI (3, 0, 3)Rerun2334 ms
+Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:497:7
+
+Frontend Kontragent UI Tests: Логирование клиентских уведомлений: logClientNotify отправляет AJAX запрос (3, 0, 3)Rerun2012 ms
+Source: at https://flood.sputnik-germes.ru/tests/frontend/kontragent_frontend_tests.js:541:7
 
 Журнал браузера:
 sinon.js:3 Uncaught ReferenceError: require is not defined
     at sinon.js:3:19
 (анонимная) @ sinon.js:3
 dx.all.js:9 [Intervention] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://flood.sputnik-germes.ru/js_new/de/icons/dxicons.woff2
-dx.all.js:9 E1035 - The editor cannot be created: E4011 - Custom Store method is not implemented or is not a function: byKey. See:
-http://js.devexpress.com/error/23_1/E4011. See:
-http://js.devexpress.com/error/23_1/E1035
-log @ dx.all.js:9
-t.renderFieldItem @ dx.all.js:9
-_renderFieldItem @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-t.each @ dx.all.js:9
-_renderTemplates @ dx.all.js:9
-onContentReady @ dx.all.js:9
-execute @ dx.all.js:9
-t._executeAction @ dx.all.js:9
-t.execute @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-s @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-g @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_fireContentReadyAction @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderContent @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_render @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_render @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_render @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderComponent @ dx.all.js:9
-_updateDOMComponent @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_createOptions @ dx.all.js:9
-ctor @ dx.all.js:9
-ctor @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-ctor @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-t @ dx.all.js:9
-_createComponent @ dx.all.js:9
-_createComponent @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderResponsiveBox @ dx.all.js:9
-_initMarkup @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderComponent @ dx.all.js:9
-_updateDOMComponent @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_createOptions @ dx.all.js:9
-ctor @ dx.all.js:9
-ctor @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-t @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-each @ jquery-3.7.1.min.js:2
-each @ jquery-3.7.1.min.js:2
-o.default.add.i.default.fn.<computed> @ dx.all.js:9
-_createComponent @ dx.all.js:9
-_createComponent @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderLayoutManager @ dx.all.js:9
-_itemGroupTemplate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-i._renderCore @ dx.all.js:9
-t.render @ dx.all.js:9
-t.renderFieldItem @ dx.all.js:9
-_renderFieldItem @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-t.each @ dx.all.js:9
-_renderTemplates @ dx.all.js:9
-onContentReady @ dx.all.js:9
-execute @ dx.all.js:9
-t._executeAction @ dx.all.js:9
-t.execute @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-s @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-g @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_fireContentReadyAction @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderContent @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_render @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_render @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_render @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderComponent @ dx.all.js:9
-_updateDOMComponent @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_createOptions @ dx.all.js:9
-ctor @ dx.all.js:9
-ctor @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-ctor @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-t @ dx.all.js:9
-_createComponent @ dx.all.js:9
-_createComponent @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderResponsiveBox @ dx.all.js:9
-_initMarkup @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderComponent @ dx.all.js:9
-_updateDOMComponent @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_createOptions @ dx.all.js:9
-ctor @ dx.all.js:9
-ctor @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-t @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-each @ jquery-3.7.1.min.js:2
-each @ jquery-3.7.1.min.js:2
-o.default.add.i.default.fn.<computed> @ dx.all.js:9
-_createComponent @ dx.all.js:9
-_createComponent @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderLayoutManager @ dx.all.js:9
-_renderLayout @ dx.all.js:9
-_initMarkup @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderComponent @ dx.all.js:9
-_updateDOMComponent @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_createOptions @ dx.all.js:9
-ctor @ dx.all.js:9
-ctor @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-t @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-each @ jquery-3.7.1.min.js:2
-each @ jquery-3.7.1.min.js:2
-o.default.add.i.default.fn.<computed> @ dx.all.js:9
-window.initializeKontragentApp @ kontragent_app.js:399
-(анонимная) @ kontragent_frontend_tests.js:390
-runTest @ qunit.js:2717
-run @ qunit.js:2700
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-run @ qunit.js:2709
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-unblockAndAdvanceQueue @ qunit.js:5584
-Promise.then
-begin @ qunit.js:5630
-(анонимная) @ qunit.js:5576
-setTimeout
-scheduleBegin @ qunit.js:5575
-autostart @ qunit.js:5557
-dx.all.js:9 E1035 - The editor cannot be created: E4011 - Custom Store method is not implemented or is not a function: byKey. See:
-http://js.devexpress.com/error/23_1/E4011. See:
-http://js.devexpress.com/error/23_1/E1035
-log @ dx.all.js:9
-t.renderFieldItem @ dx.all.js:9
-_renderFieldItem @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-t.each @ dx.all.js:9
-_renderTemplates @ dx.all.js:9
-onContentReady @ dx.all.js:9
-execute @ dx.all.js:9
-t._executeAction @ dx.all.js:9
-t.execute @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-s @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-g @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_fireContentReadyAction @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderContent @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_render @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_render @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_render @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderComponent @ dx.all.js:9
-_updateDOMComponent @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_createOptions @ dx.all.js:9
-ctor @ dx.all.js:9
-ctor @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-ctor @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-t @ dx.all.js:9
-_createComponent @ dx.all.js:9
-_createComponent @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderResponsiveBox @ dx.all.js:9
-_initMarkup @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderComponent @ dx.all.js:9
-_updateDOMComponent @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_createOptions @ dx.all.js:9
-ctor @ dx.all.js:9
-ctor @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-t @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-each @ jquery-3.7.1.min.js:2
-each @ jquery-3.7.1.min.js:2
-o.default.add.i.default.fn.<computed> @ dx.all.js:9
-_createComponent @ dx.all.js:9
-_createComponent @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderLayoutManager @ dx.all.js:9
-_itemGroupTemplate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-i._renderCore @ dx.all.js:9
-t.render @ dx.all.js:9
-t.renderFieldItem @ dx.all.js:9
-_renderFieldItem @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-t.each @ dx.all.js:9
-_renderTemplates @ dx.all.js:9
-onContentReady @ dx.all.js:9
-execute @ dx.all.js:9
-t._executeAction @ dx.all.js:9
-t.execute @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-s @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-g @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_fireContentReadyAction @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderContent @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_render @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_render @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_render @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderComponent @ dx.all.js:9
-_updateDOMComponent @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_createOptions @ dx.all.js:9
-ctor @ dx.all.js:9
-ctor @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-ctor @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-t @ dx.all.js:9
-_createComponent @ dx.all.js:9
-_createComponent @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderResponsiveBox @ dx.all.js:9
-_initMarkup @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderComponent @ dx.all.js:9
-_updateDOMComponent @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_createOptions @ dx.all.js:9
-ctor @ dx.all.js:9
-ctor @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-t @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-each @ jquery-3.7.1.min.js:2
-each @ jquery-3.7.1.min.js:2
-o.default.add.i.default.fn.<computed> @ dx.all.js:9
-_createComponent @ dx.all.js:9
-_createComponent @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderLayoutManager @ dx.all.js:9
-_renderLayout @ dx.all.js:9
-_initMarkup @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_renderComponent @ dx.all.js:9
-_updateDOMComponent @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-endUpdate @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_createOptions @ dx.all.js:9
-ctor @ dx.all.js:9
-ctor @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-t @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-each @ jquery-3.7.1.min.js:2
-each @ jquery-3.7.1.min.js:2
-o.default.add.i.default.fn.<computed> @ dx.all.js:9
-window.initializeKontragentApp @ kontragent_app.js:399
-(анонимная) @ kontragent_frontend_tests.js:390
-runTest @ qunit.js:2717
-run @ qunit.js:2700
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-run @ qunit.js:2709
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-unblockAndAdvanceQueue @ qunit.js:5584
-Promise.then
-begin @ qunit.js:5630
-(анонимная) @ qunit.js:5576
-setTimeout
-scheduleBegin @ qunit.js:5575
-autostart @ qunit.js:5557
-kontragent_frontend_tests.js:427 Uncaught TypeError: Cannot read properties of undefined (reading 'click')
-    at kontragent_frontend_tests.js:427:19
-(анонимная) @ kontragent_frontend_tests.js:427
-setTimeout
-(анонимная) @ kontragent_frontend_tests.js:425
-runTest @ qunit.js:2717
-run @ qunit.js:2700
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-run @ qunit.js:2709
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-run @ qunit.js:2709
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-kontragent_frontend_tests.js:455 Uncaught TypeError: Cannot read properties of undefined (reading 'returns')
-    at kontragent_frontend_tests.js:455:23
-(анонимная) @ kontragent_frontend_tests.js:455
-setTimeout
-(анонимная) @ kontragent_frontend_tests.js:451
-runTest @ qunit.js:2717
-run @ qunit.js:2700
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-(анонимная) @ kontragent_frontend_tests.js:414
-runTest @ qunit.js:2717
-run @ qunit.js:2700
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-run @ qunit.js:2709
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
 dx.all.js:9 W0017 - Setting the "height" property with a function is deprecated since v21.2. See:
 http://js.devexpress.com/error/23_1/W0017
 log @ dx.all.js:9
@@ -1039,181 +121,6 @@ each @ jquery-3.7.1.min.js:2
 each @ jquery-3.7.1.min.js:2
 o.default.add.i.default.fn.<computed> @ dx.all.js:9
 window.initializeKontragentApp @ kontragent_app.js:81
-(анонимная) @ kontragent_frontend_tests.js:141
-runTest @ qunit.js:2717
-run @ qunit.js:2700
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-run @ qunit.js:2709
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-run @ qunit.js:2709
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-run @ qunit.js:2709
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-kontragent_frontend_tests.js:144 Uncaught TypeError: $(...).dxButton(...).click is not a function
-    at kontragent_frontend_tests.js:144:56
-(анонимная) @ kontragent_frontend_tests.js:144
-setTimeout
 (анонимная) @ kontragent_frontend_tests.js:143
 runTest @ qunit.js:2717
 run @ qunit.js:2700
@@ -1229,7 +136,7 @@ internalRecover @ qunit.js:3500
 setTimeout
 internalStop @ qunit.js:3181
 async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
+beforeEach @ kontragent_frontend_tests.js:14
 callHook @ qunit.js:2753
 runHook @ qunit.js:2782
 processTaskQueue @ qunit.js:4220
@@ -1271,7 +178,83 @@ internalRecover @ qunit.js:3500
 setTimeout
 internalStop @ qunit.js:3181
 async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+unblockAndAdvanceQueue @ qunit.js:5584
+Promise.then
+begin @ qunit.js:5630
+(анонимная) @ qunit.js:5576
+setTimeout
+scheduleBegin @ qunit.js:5575
+autostart @ qunit.js:5557
+kontragent_frontend_tests.js:146 Uncaught TypeError: $(...).dxButton(...).click is not a function
+    at kontragent_frontend_tests.js:146:56
+(анонимная) @ kontragent_frontend_tests.js:146
+setTimeout
+(анонимная) @ kontragent_frontend_tests.js:145
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
 callHook @ qunit.js:2753
 runHook @ qunit.js:2782
 processTaskQueue @ qunit.js:4220
@@ -1313,7 +296,7 @@ internalRecover @ qunit.js:3500
 setTimeout
 internalStop @ qunit.js:3181
 async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
+beforeEach @ kontragent_frontend_tests.js:14
 callHook @ qunit.js:2753
 runHook @ qunit.js:2782
 processTaskQueue @ qunit.js:4220
@@ -1336,14 +319,8 @@ processTaskQueue @ qunit.js:4220
 (анонимная) @ qunit.js:4224
 Promise.then
 processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-run @ qunit.js:2709
-(анонимная) @ qunit.js:2984
+(анонимная) @ qunit.js:4224
+Promise.then
 processTaskQueue @ qunit.js:4220
 advanceTaskQueue @ qunit.js:4204
 advance @ qunit.js:4190
@@ -1355,7 +332,7 @@ internalRecover @ qunit.js:3500
 setTimeout
 internalStop @ qunit.js:3181
 async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
+beforeEach @ kontragent_frontend_tests.js:14
 callHook @ qunit.js:2753
 runHook @ qunit.js:2782
 processTaskQueue @ qunit.js:4220
@@ -1369,57 +346,17 @@ advanceTaskQueue @ qunit.js:4204
 advance @ qunit.js:4190
 advanceTestQueue @ qunit.js:4250
 advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
+unblockAndAdvanceQueue @ qunit.js:5584
 Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-index.php:137 Test Log: error Ошибка загрузки данных для грида: Ошибка: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''0', '100'' at line 5 0 {response: {…}, load_options: {…}}
-dx.all.js:9 Uncaught Error: E4021 - The server response does not provide the totalCount value. See:
-http://js.devexpress.com/error/23_1/E4021
-    at d (dx.all.js:9:1014729)
-    at Object.Error (dx.all.js:9:1014245)
-    at dx.all.js:9:1068508
-    at t._totalCountImpl (dx.all.js:9:1068622)
-    at t._totalCountImpl (dx.all.js:9:915057)
-    at t.totalCount (dx.all.js:9:1050884)
-    at t._processStoreLoadResult (dx.all.js:9:1080715)
-    at dx.all.js:9:1080091
-    at c (jquery-3.7.1.min.js:2:25304)
-    at Object.add [as done] (jquery-3.7.1.min.js:2:25583)
-d @ dx.all.js:9
-Error @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_totalCountImpl @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-totalCount @ dx.all.js:9
-_processStoreLoadResult @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-c @ jquery-3.7.1.min.js:2
-add @ jquery-3.7.1.min.js:2
-i @ dx.all.js:9
-c @ jquery-3.7.1.min.js:2
-fireWith @ jquery-3.7.1.min.js:2
-(анонимная) @ dx.all.js:9
-c @ jquery-3.7.1.min.js:2
-add @ jquery-3.7.1.min.js:2
-(анонимная) @ dx.all.js:9
-c @ jquery-3.7.1.min.js:2
-fireWith @ jquery-3.7.1.min.js:2
-s.<computed> @ jquery-3.7.1.min.js:2
-(анонимная) @ dx.all.js:9
-c @ jquery-3.7.1.min.js:2
-fireWith @ jquery-3.7.1.min.js:2
-l @ jquery-3.7.1.min.js:2
-(анонимная) @ jquery-3.7.1.min.js:2
-XMLHttpRequest.send
+begin @ qunit.js:5630
+(анонимная) @ qunit.js:5576
+setTimeout
+scheduleBegin @ qunit.js:5575
+autostart @ qunit.js:5557
+jquery-3.7.1.min.js:2 
+            
+            
+           GET https://flood.sputnik-germes.ru/ajax_kontragent.php?action=get_list&kontragent_type=2&skip=0&take=100&searchValue=&status=active 500 (Internal Server Error)
 send @ jquery-3.7.1.min.js:2
 ajax @ jquery-3.7.1.min.js:2
 load @ kontragent_app.js:99
@@ -1492,7 +429,7 @@ each @ jquery-3.7.1.min.js:2
 each @ jquery-3.7.1.min.js:2
 o.default.add.i.default.fn.<computed> @ dx.all.js:9
 window.initializeKontragentApp @ kontragent_app.js:81
-(анонимная) @ kontragent_frontend_tests.js:141
+(анонимная) @ kontragent_frontend_tests.js:143
 runTest @ qunit.js:2717
 run @ qunit.js:2700
 (анонимная) @ qunit.js:2984
@@ -1507,7 +444,7 @@ internalRecover @ qunit.js:3500
 setTimeout
 internalStop @ qunit.js:3181
 async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
+beforeEach @ kontragent_frontend_tests.js:14
 callHook @ qunit.js:2753
 runHook @ qunit.js:2782
 processTaskQueue @ qunit.js:4220
@@ -1549,7 +486,7 @@ internalRecover @ qunit.js:3500
 setTimeout
 internalStop @ qunit.js:3181
 async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
+beforeEach @ kontragent_frontend_tests.js:14
 callHook @ qunit.js:2753
 runHook @ qunit.js:2782
 processTaskQueue @ qunit.js:4220
@@ -1572,14 +509,8 @@ processTaskQueue @ qunit.js:4220
 (анонимная) @ qunit.js:4224
 Promise.then
 processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-run @ qunit.js:2709
-(анонимная) @ qunit.js:2984
+(анонимная) @ qunit.js:4224
+Promise.then
 processTaskQueue @ qunit.js:4220
 advanceTaskQueue @ qunit.js:4204
 advance @ qunit.js:4190
@@ -1591,7 +522,7 @@ internalRecover @ qunit.js:3500
 setTimeout
 internalStop @ qunit.js:3181
 async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
+beforeEach @ kontragent_frontend_tests.js:14
 callHook @ qunit.js:2753
 runHook @ qunit.js:2782
 processTaskQueue @ qunit.js:4220
@@ -1605,55 +536,14 @@ advanceTaskQueue @ qunit.js:4204
 advance @ qunit.js:4190
 advanceTestQueue @ qunit.js:4250
 advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
+unblockAndAdvanceQueue @ qunit.js:5584
 Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
+begin @ qunit.js:5630
+(анонимная) @ qunit.js:5576
 setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-run @ qunit.js:2709
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
+scheduleBegin @ qunit.js:5575
+autostart @ qunit.js:5557
+index.php:134 Test Log (Client Notify): error Ошибка AJAX при загрузке данных для грида: error 0 {error: 'Internal Server Error', response: '', load_options: {…}}
 dx.all.js:9 W0017 - Setting the "height" property with a function is deprecated since v21.2. See:
 http://js.devexpress.com/error/23_1/W0017
 log @ dx.all.js:9
@@ -1684,7 +574,7 @@ each @ jquery-3.7.1.min.js:2
 each @ jquery-3.7.1.min.js:2
 o.default.add.i.default.fn.<computed> @ dx.all.js:9
 window.initializeKontragentApp @ kontragent_app.js:81
-(анонимная) @ kontragent_frontend_tests.js:177
+(анонимная) @ kontragent_frontend_tests.js:181
 runTest @ qunit.js:2717
 run @ qunit.js:2700
 (анонимная) @ qunit.js:2984
@@ -1699,55 +589,7 @@ internalRecover @ qunit.js:3500
 setTimeout
 internalStop @ qunit.js:3181
 async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-(анонимная) @ kontragent_frontend_tests.js:136
-runTest @ qunit.js:2717
-run @ qunit.js:2700
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
+beforeEach @ kontragent_frontend_tests.js:14
 callHook @ qunit.js:2753
 runHook @ qunit.js:2782
 processTaskQueue @ qunit.js:4220
@@ -1789,7 +631,55 @@ internalRecover @ qunit.js:3500
 setTimeout
 internalStop @ qunit.js:3181
 async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+(анонимная) @ kontragent_frontend_tests.js:138
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
 callHook @ qunit.js:2753
 runHook @ qunit.js:2782
 processTaskQueue @ qunit.js:4220
@@ -1831,7 +721,7 @@ internalRecover @ qunit.js:3500
 setTimeout
 internalStop @ qunit.js:3181
 async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
+beforeEach @ kontragent_frontend_tests.js:14
 callHook @ qunit.js:2753
 runHook @ qunit.js:2782
 processTaskQueue @ qunit.js:4220
@@ -1854,48 +744,11 @@ processTaskQueue @ qunit.js:4220
 (анонимная) @ qunit.js:4224
 Promise.then
 processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-index.php:137 Test Log: error Ошибка загрузки данных для грида: Ошибка: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''0', '100'' at line 5 0 {response: {…}, load_options: {…}}
-dx.all.js:9 Uncaught Error: E4021 - The server response does not provide the totalCount value. See:
-http://js.devexpress.com/error/23_1/E4021
-    at d (dx.all.js:9:1014729)
-    at Object.Error (dx.all.js:9:1014245)
-    at dx.all.js:9:1068508
-    at t._totalCountImpl (dx.all.js:9:1068622)
-    at t._totalCountImpl (dx.all.js:9:915057)
-    at t.totalCount (dx.all.js:9:1050884)
-    at t._processStoreLoadResult (dx.all.js:9:1080715)
-    at dx.all.js:9:1080091
-    at c (jquery-3.7.1.min.js:2:25304)
-    at Object.add [as done] (jquery-3.7.1.min.js:2:25583)
-d @ dx.all.js:9
-Error @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-_totalCountImpl @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-totalCount @ dx.all.js:9
-_processStoreLoadResult @ dx.all.js:9
-(анонимная) @ dx.all.js:9
-c @ jquery-3.7.1.min.js:2
-add @ jquery-3.7.1.min.js:2
-i @ dx.all.js:9
-c @ jquery-3.7.1.min.js:2
-fireWith @ jquery-3.7.1.min.js:2
-(анонимная) @ dx.all.js:9
-c @ jquery-3.7.1.min.js:2
-add @ jquery-3.7.1.min.js:2
-(анонимная) @ dx.all.js:9
-c @ jquery-3.7.1.min.js:2
-fireWith @ jquery-3.7.1.min.js:2
-s.<computed> @ jquery-3.7.1.min.js:2
-(анонимная) @ dx.all.js:9
-c @ jquery-3.7.1.min.js:2
-fireWith @ jquery-3.7.1.min.js:2
-l @ jquery-3.7.1.min.js:2
-(анонимная) @ jquery-3.7.1.min.js:2
-XMLHttpRequest.send
+(анонимная) @ qunit.js:4224
+jquery-3.7.1.min.js:2 
+            
+            
+           GET https://flood.sputnik-germes.ru/ajax_kontragent.php?action=get_list&kontragent_type=3&skip=0&take=100&searchValue=&status=active 500 (Internal Server Error)
 send @ jquery-3.7.1.min.js:2
 ajax @ jquery-3.7.1.min.js:2
 load @ kontragent_app.js:99
@@ -1968,7 +821,7 @@ each @ jquery-3.7.1.min.js:2
 each @ jquery-3.7.1.min.js:2
 o.default.add.i.default.fn.<computed> @ dx.all.js:9
 window.initializeKontragentApp @ kontragent_app.js:81
-(анонимная) @ kontragent_frontend_tests.js:177
+(анонимная) @ kontragent_frontend_tests.js:181
 runTest @ qunit.js:2717
 run @ qunit.js:2700
 (анонимная) @ qunit.js:2984
@@ -1983,55 +836,7 @@ internalRecover @ qunit.js:3500
 setTimeout
 internalStop @ qunit.js:3181
 async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
-callHook @ qunit.js:2753
-runHook @ qunit.js:2782
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-advanceTestQueue @ qunit.js:4250
-advance @ qunit.js:4192
-(анонимная) @ qunit.js:4222
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-(анонимная) @ qunit.js:4224
-Promise.then
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-(анонимная) @ kontragent_frontend_tests.js:136
-runTest @ qunit.js:2717
-run @ qunit.js:2700
-(анонимная) @ qunit.js:2984
-processTaskQueue @ qunit.js:4220
-advanceTaskQueue @ qunit.js:4204
-advance @ qunit.js:4190
-(анонимная) @ qunit.js:3520
-setTimeout
-internalStart @ qunit.js:3513
-internalRecover @ qunit.js:3500
-(анонимная) @ qunit.js:3177
-setTimeout
-internalStop @ qunit.js:3181
-async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
+beforeEach @ kontragent_frontend_tests.js:14
 callHook @ qunit.js:2753
 runHook @ qunit.js:2782
 processTaskQueue @ qunit.js:4220
@@ -2073,7 +878,55 @@ internalRecover @ qunit.js:3500
 setTimeout
 internalStop @ qunit.js:3181
 async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+(анонимная) @ kontragent_frontend_tests.js:138
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
 callHook @ qunit.js:2753
 runHook @ qunit.js:2782
 processTaskQueue @ qunit.js:4220
@@ -2115,7 +968,7 @@ internalRecover @ qunit.js:3500
 setTimeout
 internalStop @ qunit.js:3181
 async @ qunit.js:1650
-beforeEach @ kontragent_frontend_tests.js:13
+beforeEach @ kontragent_frontend_tests.js:14
 callHook @ qunit.js:2753
 runHook @ qunit.js:2782
 processTaskQueue @ qunit.js:4220
@@ -2133,3 +986,1342 @@ advance @ qunit.js:4192
 Promise.then
 processTaskQueue @ qunit.js:4220
 (анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+index.php:134 Test Log (Client Notify): error Ошибка AJAX при загрузке данных для грида: error 0 {error: 'Internal Server Error', response: '', load_options: {…}}
+kontragent_frontend_tests.js:375 Uncaught TypeError: Cannot read properties of undefined (reading 'calledWith')
+    at kontragent_frontend_tests.js:375:48
+(анонимная) @ kontragent_frontend_tests.js:375
+setTimeout
+(анонимная) @ kontragent_frontend_tests.js:372
+setTimeout
+(анонимная) @ kontragent_frontend_tests.js:364
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+run @ qunit.js:2709
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+run @ qunit.js:2709
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+dx.all.js:9 E1035 - The editor cannot be created: E4011 - Custom Store method is not implemented or is not a function: byKey. See:
+http://js.devexpress.com/error/23_1/E4011. See:
+http://js.devexpress.com/error/23_1/E1035
+log @ dx.all.js:9
+t.renderFieldItem @ dx.all.js:9
+_renderFieldItem @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t.each @ dx.all.js:9
+_renderTemplates @ dx.all.js:9
+onContentReady @ dx.all.js:9
+execute @ dx.all.js:9
+t._executeAction @ dx.all.js:9
+t.execute @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+s @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+g @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_fireContentReadyAction @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderContent @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_render @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_render @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_render @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderComponent @ dx.all.js:9
+_updateDOMComponent @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_createOptions @ dx.all.js:9
+ctor @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t @ dx.all.js:9
+_createComponent @ dx.all.js:9
+_createComponent @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderResponsiveBox @ dx.all.js:9
+_initMarkup @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderComponent @ dx.all.js:9
+_updateDOMComponent @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_createOptions @ dx.all.js:9
+ctor @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+each @ jquery-3.7.1.min.js:2
+each @ jquery-3.7.1.min.js:2
+o.default.add.i.default.fn.<computed> @ dx.all.js:9
+_createComponent @ dx.all.js:9
+_createComponent @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderLayoutManager @ dx.all.js:9
+_itemGroupTemplate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+i._renderCore @ dx.all.js:9
+t.render @ dx.all.js:9
+t.renderFieldItem @ dx.all.js:9
+_renderFieldItem @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t.each @ dx.all.js:9
+_renderTemplates @ dx.all.js:9
+onContentReady @ dx.all.js:9
+execute @ dx.all.js:9
+t._executeAction @ dx.all.js:9
+t.execute @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+s @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+g @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_fireContentReadyAction @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderContent @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_render @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_render @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_render @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderComponent @ dx.all.js:9
+_updateDOMComponent @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_createOptions @ dx.all.js:9
+ctor @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t @ dx.all.js:9
+_createComponent @ dx.all.js:9
+_createComponent @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderResponsiveBox @ dx.all.js:9
+_initMarkup @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderComponent @ dx.all.js:9
+_updateDOMComponent @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_createOptions @ dx.all.js:9
+ctor @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+each @ jquery-3.7.1.min.js:2
+each @ jquery-3.7.1.min.js:2
+o.default.add.i.default.fn.<computed> @ dx.all.js:9
+_createComponent @ dx.all.js:9
+_createComponent @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderLayoutManager @ dx.all.js:9
+_renderLayout @ dx.all.js:9
+_initMarkup @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderComponent @ dx.all.js:9
+_updateDOMComponent @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_createOptions @ dx.all.js:9
+ctor @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+each @ jquery-3.7.1.min.js:2
+each @ jquery-3.7.1.min.js:2
+o.default.add.i.default.fn.<computed> @ dx.all.js:9
+window.initializeKontragentApp @ kontragent_app.js:399
+(анонимная) @ kontragent_frontend_tests.js:395
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+(анонимная) @ kontragent_frontend_tests.js:355
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+run @ qunit.js:2709
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+run @ qunit.js:2709
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+dx.all.js:9 E1035 - The editor cannot be created: E4011 - Custom Store method is not implemented or is not a function: byKey. See:
+http://js.devexpress.com/error/23_1/E4011. See:
+http://js.devexpress.com/error/23_1/E1035
+log @ dx.all.js:9
+t.renderFieldItem @ dx.all.js:9
+_renderFieldItem @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t.each @ dx.all.js:9
+_renderTemplates @ dx.all.js:9
+onContentReady @ dx.all.js:9
+execute @ dx.all.js:9
+t._executeAction @ dx.all.js:9
+t.execute @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+s @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+g @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_fireContentReadyAction @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderContent @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_render @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_render @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_render @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderComponent @ dx.all.js:9
+_updateDOMComponent @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_createOptions @ dx.all.js:9
+ctor @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t @ dx.all.js:9
+_createComponent @ dx.all.js:9
+_createComponent @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderResponsiveBox @ dx.all.js:9
+_initMarkup @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderComponent @ dx.all.js:9
+_updateDOMComponent @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_createOptions @ dx.all.js:9
+ctor @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+each @ jquery-3.7.1.min.js:2
+each @ jquery-3.7.1.min.js:2
+o.default.add.i.default.fn.<computed> @ dx.all.js:9
+_createComponent @ dx.all.js:9
+_createComponent @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderLayoutManager @ dx.all.js:9
+_itemGroupTemplate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+i._renderCore @ dx.all.js:9
+t.render @ dx.all.js:9
+t.renderFieldItem @ dx.all.js:9
+_renderFieldItem @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t.each @ dx.all.js:9
+_renderTemplates @ dx.all.js:9
+onContentReady @ dx.all.js:9
+execute @ dx.all.js:9
+t._executeAction @ dx.all.js:9
+t.execute @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+s @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+g @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_fireContentReadyAction @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderContent @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_render @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_render @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_render @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderComponent @ dx.all.js:9
+_updateDOMComponent @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_createOptions @ dx.all.js:9
+ctor @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t @ dx.all.js:9
+_createComponent @ dx.all.js:9
+_createComponent @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderResponsiveBox @ dx.all.js:9
+_initMarkup @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderComponent @ dx.all.js:9
+_updateDOMComponent @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_createOptions @ dx.all.js:9
+ctor @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+each @ jquery-3.7.1.min.js:2
+each @ jquery-3.7.1.min.js:2
+o.default.add.i.default.fn.<computed> @ dx.all.js:9
+_createComponent @ dx.all.js:9
+_createComponent @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderLayoutManager @ dx.all.js:9
+_renderLayout @ dx.all.js:9
+_initMarkup @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_renderComponent @ dx.all.js:9
+_updateDOMComponent @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_createOptions @ dx.all.js:9
+ctor @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+each @ jquery-3.7.1.min.js:2
+each @ jquery-3.7.1.min.js:2
+o.default.add.i.default.fn.<computed> @ dx.all.js:9
+window.initializeKontragentApp @ kontragent_app.js:399
+(анонимная) @ kontragent_frontend_tests.js:395
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+(анонимная) @ kontragent_frontend_tests.js:355
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+run @ qunit.js:2709
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+run @ qunit.js:2709
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+kontragent_frontend_tests.js:401 Uncaught TypeError: Cannot read properties of undefined (reading 'returns')
+    at kontragent_frontend_tests.js:401:23
+(анонимная) @ kontragent_frontend_tests.js:401
+setTimeout
+(анонимная) @ kontragent_frontend_tests.js:397
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+(анонимная) @ kontragent_frontend_tests.js:355
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+run @ qunit.js:2709
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+run @ qunit.js:2709
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+kontragent_frontend_tests.js:433 Uncaught TypeError: Cannot read properties of undefined (reading 'click')
+    at kontragent_frontend_tests.js:433:19
+(анонимная) @ kontragent_frontend_tests.js:433
+setTimeout
+(анонимная) @ kontragent_frontend_tests.js:430
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+(анонимная) @ kontragent_frontend_tests.js:388
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+(анонимная) @ kontragent_frontend_tests.js:355
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+run @ qunit.js:2709
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+kontragent_frontend_tests.js:459 Uncaught TypeError: Cannot read properties of undefined (reading 'returns')
+    at kontragent_frontend_tests.js:459:23
+(анонимная) @ kontragent_frontend_tests.js:459
+setTimeout
+(анонимная) @ kontragent_frontend_tests.js:454
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+(анонимная) @ kontragent_frontend_tests.js:419
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+(анонимная) @ kontragent_frontend_tests.js:388
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+(анонимная) @ kontragent_frontend_tests.js:355
+runTest @ qunit.js:2717
+run @ qunit.js:2700
+(анонимная) @ qunit.js:2984
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+(анонимная) @ qunit.js:3520
+setTimeout
+internalStart @ qunit.js:3513
+internalRecover @ qunit.js:3500
+(анонимная) @ qunit.js:3177
+setTimeout
+internalStop @ qunit.js:3181
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:14
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+(анонимная) @ qunit.js:4222
