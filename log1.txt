@@ -1,293 +1,80 @@
 страница
-https://flood.sputnik-germes.ru/index.php?option=com_content&view=article&id=25&kontragent=3&id_people=116412
+https://flood.sputnik-germes.ru/tests/frontend/index.php
 
 Журнал браузера:
-index.php:1 [Intervention] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://flood.sputnik-germes.ru/fonts/PTSansRegular/PTSansRegular.woff
-2.1/?lang=ru_RU:1 (Yandex Maps JS API): Invalid API key
-ymapsInit @ 2.1/?lang=ru_RU:1
-(анонимная) @ 2.1/?lang=ru_RU:1
-index.php:628 
-            
-            
-           GET https://flood.sputnik-germes.ru/js_new/de/dx.fluent.light.css net::ERR_ABORTED 404 (Not Found)
-index.php?option=com_content&view=article&id=25&kontragent=3&id_people=116412:1555 trackGoal цель № 2
-jquery-3.2.1.min.js:2 jQuery.Deferred exception: $.cookie is not a function TypeError: $.cookie is not a function
-    at HTMLDocument.<anonymous> (https://flood.sputnik-germes.ru/js_new/germes_menu.js:10:24)
-    at j (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:29999)
-    at k (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:30313) undefined
-r.Deferred.exceptionHook @ jquery-3.2.1.min.js:2
-k @ jquery-3.2.1.min.js:2
-setTimeout
-(анонимная) @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-fire @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-ready @ jquery-3.2.1.min.js:2
-S @ jquery-3.2.1.min.js:3
-jquery-3.2.1.min.js:2 jQuery.Deferred exception: $.cookie is not a function TypeError: $.cookie is not a function
-    at HTMLDocument.<anonymous> (https://flood.sputnik-germes.ru/js_new/germes_menu.js:10:24)
-    at j (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:29999)
-    at k (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:30313) undefined
-r.Deferred.exceptionHook @ jquery-3.2.1.min.js:2
-k @ jquery-3.2.1.min.js:2
-setTimeout
-(анонимная) @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-fire @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-ready @ jquery-3.2.1.min.js:2
-S @ jquery-3.2.1.min.js:3
-jquery-3.2.1.min.js:2 jQuery.Deferred exception: $(...).mask is not a function TypeError: $(...).mask is not a function
-    at HTMLDocument.<anonymous> (https://flood.sputnik-germes.ru/index.php?option=com_content&view=article&id=25&kontragent=3&id_people=116412:498:40)
-    at j (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:29999)
-    at k (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:30313) undefined
-r.Deferred.exceptionHook @ jquery-3.2.1.min.js:2
-k @ jquery-3.2.1.min.js:2
-setTimeout
-(анонимная) @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-fire @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-ready @ jquery-3.2.1.min.js:2
-S @ jquery-3.2.1.min.js:3
-jquery-3.2.1.min.js:2 Uncaught TypeError: $.cookie is not a function
-    at HTMLDocument.<anonymous> (VM103 germes_menu.js:10:24)
-    at j (jquery-3.2.1.min.js:2:29999)
-    at k (jquery-3.2.1.min.js:2:30313)
-(анонимная) @ VM103 germes_menu.js:10
-j @ jquery-3.2.1.min.js:2
-k @ jquery-3.2.1.min.js:2
-setTimeout
-(анонимная) @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-fire @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-ready @ jquery-3.2.1.min.js:2
-S @ jquery-3.2.1.min.js:3
-jquery-3.2.1.min.js:2 Uncaught TypeError: $.cookie is not a function
-    at HTMLDocument.<anonymous> (germes_menu.js:10:24)
-    at j (jquery-3.2.1.min.js:2:29999)
-    at k (jquery-3.2.1.min.js:2:30313)
-(анонимная) @ germes_menu.js:10
-j @ jquery-3.2.1.min.js:2
-k @ jquery-3.2.1.min.js:2
-setTimeout
-(анонимная) @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-fire @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-ready @ jquery-3.2.1.min.js:2
-S @ jquery-3.2.1.min.js:3
-jquery-3.2.1.min.js:2 Uncaught TypeError: $(...).mask is not a function
-    at HTMLDocument.<anonymous> (index.php?option=com_content&view=article&id=25&kontragent=3&id_people=116412:498:40)
-    at j (jquery-3.2.1.min.js:2:29999)
-    at k (jquery-3.2.1.min.js:2:30313)
-(анонимная) @ index.php?option=com_content&view=article&id=25&kontragent=3&id_people=116412:498
-j @ jquery-3.2.1.min.js:2
-k @ jquery-3.2.1.min.js:2
-setTimeout
-(анонимная) @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-fire @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-ready @ jquery-3.2.1.min.js:2
-S @ jquery-3.2.1.min.js:3
-jquery.min.js:2 Uncaught Error: E0021 - Unknown theme is set: null. See:
-http://js.devexpress.com/error/23_1/E0021
-    at d (dx.all.js:9:1014729)
-    at Object.Error (dx.all.js:9:1014245)
-    at Object.M [as current] (dx.all.js:9:4354539)
-    at HTMLDocument.<anonymous> (index.php?option=com_content&view=article&id=25&kontragent=3&id_people=116412:797:30)
-    at e (jquery.min.js:2:30038)
-    at t (jquery.min.js:2:30340)
-d @ dx.all.js:9
-Error @ dx.all.js:9
-M @ dx.all.js:9
-(анонимная) @ index.php?option=com_content&view=article&id=25&kontragent=3&id_people=116412:797
-e @ jquery.min.js:2
-t @ jquery.min.js:2
-setTimeout
-(анонимная) @ jquery.min.js:2
-c @ jquery.min.js:2
-fireWith @ jquery.min.js:2
-fire @ jquery.min.js:2
-c @ jquery.min.js:2
-fireWith @ jquery.min.js:2
-ready @ jquery.min.js:2
-B @ jquery.min.js:2
-dx.all.js:9 W0004 - Timeout for theme loading is over: any. See:
-http://js.devexpress.com/error/23_1/W0004
+sinon.js:3 Uncaught ReferenceError: require is not defined
+    at sinon.js:3:19
+(анонимная) @ sinon.js:3
+dx.all.js:9 W0017 - Setting the "height" property with a function is deprecated since v21.2. See:
+http://js.devexpress.com/error/23_1/W0017
 log @ dx.all.js:9
 (анонимная) @ dx.all.js:9
-setInterval
-E @ dx.all.js:9
-M @ dx.all.js:9
-P @ dx.all.js:9
-G @ dx.all.js:9
-75811 @ dx.all.js:9
-n @ dx.all.js:19
-2492 @ dx.all.js:9
-n @ dx.all.js:19
-97218 @ dx.all.js:9
-n @ dx.all.js:19
-5332 @ dx.all.js:9
-n @ dx.all.js:19
-11385 @ dx.all.js:9
-n @ dx.all.js:19
-8572 @ dx.all.js:9
-n @ dx.all.js:19
-2994 @ dx.all.js:9
-n @ dx.all.js:19
-36991 @ dx.all.js:9
-n @ dx.all.js:19
-85357 @ dx.all.js:9
-n @ dx.all.js:19
-94620 @ dx.all.js:9
-n @ dx.all.js:19
-2025 @ dx.all.js:9
-n @ dx.all.js:19
-16354 @ dx.all.js:9
-n @ dx.all.js:19
-(анонимная) @ dx.all.js:19
-(анонимная) @ dx.all.js:19
-
-
-index.php:1 [Intervention] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://flood.sputnik-germes.ru/fonts/PTSansRegular/PTSansRegular.woff
-2.1/?lang=ru_RU:1 (Yandex Maps JS API): Invalid API key
-ymapsInit @ 2.1/?lang=ru_RU:1
-(анонимная) @ 2.1/?lang=ru_RU:1
-index.php:628 
-
-страница
-https://flood.sputnik-germes.ru/index.php?option=com_content&view=article&id=25&kontragent=3            
-            
-           GET https://flood.sputnik-germes.ru/js_new/de/dx.fluent.light.css net::ERR_ABORTED 404 (Not Found)
-index.php?option=com_content&view=article&id=25&kontragent=3:1093 trackGoal цель № 2
-jquery-3.2.1.min.js:2 jQuery.Deferred exception: $.cookie is not a function TypeError: $.cookie is not a function
-    at HTMLDocument.<anonymous> (https://flood.sputnik-germes.ru/js_new/germes_menu.js:10:24)
-    at j (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:29999)
-    at k (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:30313) undefined
-r.Deferred.exceptionHook @ jquery-3.2.1.min.js:2
-k @ jquery-3.2.1.min.js:2
-setTimeout
-(анонимная) @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-fire @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-ready @ jquery-3.2.1.min.js:2
-S @ jquery-3.2.1.min.js:3
-jquery-3.2.1.min.js:2 jQuery.Deferred exception: $.cookie is not a function TypeError: $.cookie is not a function
-    at HTMLDocument.<anonymous> (https://flood.sputnik-germes.ru/js_new/germes_menu.js:10:24)
-    at j (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:29999)
-    at k (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:30313) undefined
-r.Deferred.exceptionHook @ jquery-3.2.1.min.js:2
-k @ jquery-3.2.1.min.js:2
-setTimeout
-(анонимная) @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-fire @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-ready @ jquery-3.2.1.min.js:2
-S @ jquery-3.2.1.min.js:3
-jquery-3.2.1.min.js:2 jQuery.Deferred exception: $(...).mask is not a function TypeError: $(...).mask is not a function
-    at HTMLDocument.<anonymous> (https://flood.sputnik-germes.ru/index.php?option=com_content&view=article&id=25&kontragent=3:498:40)
-    at j (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:29999)
-    at k (https://flood.sputnik-germes.ru/js_new/jquery-3.2.1.min.js:2:30313) undefined
-r.Deferred.exceptionHook @ jquery-3.2.1.min.js:2
-k @ jquery-3.2.1.min.js:2
-setTimeout
-(анонимная) @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-fire @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-ready @ jquery-3.2.1.min.js:2
-S @ jquery-3.2.1.min.js:3
-jquery-3.2.1.min.js:2 Uncaught TypeError: $.cookie is not a function
-    at HTMLDocument.<anonymous> (VM2203 germes_menu.js:10:24)
-    at j (jquery-3.2.1.min.js:2:29999)
-    at k (jquery-3.2.1.min.js:2:30313)
-(анонимная) @ VM2203 germes_menu.js:10
-j @ jquery-3.2.1.min.js:2
-k @ jquery-3.2.1.min.js:2
-setTimeout
-(анонимная) @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-fire @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-ready @ jquery-3.2.1.min.js:2
-S @ jquery-3.2.1.min.js:3
-jquery-3.2.1.min.js:2 Uncaught TypeError: $.cookie is not a function
-    at HTMLDocument.<anonymous> (germes_menu.js:10:24)
-    at j (jquery-3.2.1.min.js:2:29999)
-    at k (jquery-3.2.1.min.js:2:30313)
-(анонимная) @ germes_menu.js:10
-j @ jquery-3.2.1.min.js:2
-k @ jquery-3.2.1.min.js:2
-setTimeout
-(анонимная) @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-fire @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-ready @ jquery-3.2.1.min.js:2
-S @ jquery-3.2.1.min.js:3
-jquery-3.2.1.min.js:2 Uncaught TypeError: $(...).mask is not a function
-    at HTMLDocument.<anonymous> (index.php?option=com_content&view=article&id=25&kontragent=3:498:40)
-    at j (jquery-3.2.1.min.js:2:29999)
-    at k (jquery-3.2.1.min.js:2:30313)
-(анонимная) @ index.php?option=com_content&view=article&id=25&kontragent=3:498
-j @ jquery-3.2.1.min.js:2
-k @ jquery-3.2.1.min.js:2
-setTimeout
-(анонимная) @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-fire @ jquery-3.2.1.min.js:2
-i @ jquery-3.2.1.min.js:2
-fireWith @ jquery-3.2.1.min.js:2
-ready @ jquery-3.2.1.min.js:2
-S @ jquery-3.2.1.min.js:3
-jquery.min.js:2 Uncaught Error: E0021 - Unknown theme is set: null. See:
-http://js.devexpress.com/error/23_1/E0021
+_checkFunctionValueDeprecation @ dx.all.js:9
+_init @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_init @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_init @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_initializeComponent @ dx.all.js:9
+_commitUpdate @ dx.all.js:9
+endUpdate @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_createOptions @ dx.all.js:9
+ctor @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+each @ jquery-3.7.1.min.js:2
+each @ jquery-3.7.1.min.js:2
+o.default.add.i.default.fn.<computed> @ dx.all.js:9
+window.initializeKontragentApp @ kontragent_app.js:81
+(анонимная) @ kontragent_app.js:835
+e @ jquery-3.7.1.min.js:2
+t @ jquery-3.7.1.min.js:2
+index.php:132 Test Log: error Ошибка загрузки данных для грида: Ошибка: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''0', '100'' at line 5 0 Object
+dx.all.js:9 Uncaught Error: E4021 - The server response does not provide the totalCount value. See:
+http://js.devexpress.com/error/23_1/E4021
     at d (dx.all.js:9:1014729)
     at Object.Error (dx.all.js:9:1014245)
-    at Object.M [as current] (dx.all.js:9:4354539)
-    at HTMLDocument.<anonymous> (index.php?option=com_content&view=article&id=25&kontragent=3:797:30)
-    at e (jquery.min.js:2:30038)
-    at t (jquery.min.js:2:30340)
+    at dx.all.js:9:1068508
+    at t._totalCountImpl (dx.all.js:9:1068622)
+    at t._totalCountImpl (dx.all.js:9:915057)
+    at t.totalCount (dx.all.js:9:1050884)
+    at t._processStoreLoadResult (dx.all.js:9:1080715)
+    at dx.all.js:9:1080091
+    at c (jquery-3.7.1.min.js:2:25304)
+    at Object.add [as done] (jquery-3.7.1.min.js:2:25583)
 d @ dx.all.js:9
 Error @ dx.all.js:9
-M @ dx.all.js:9
-(анонимная) @ index.php?option=com_content&view=article&id=25&kontragent=3:797
-e @ jquery.min.js:2
-t @ jquery.min.js:2
-setTimeout
-(анонимная) @ jquery.min.js:2
-c @ jquery.min.js:2
-fireWith @ jquery.min.js:2
-fire @ jquery.min.js:2
-c @ jquery.min.js:2
-fireWith @ jquery.min.js:2
-ready @ jquery.min.js:2
-B @ jquery.min.js:2
+(анонимная) @ dx.all.js:9
+_totalCountImpl @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+totalCount @ dx.all.js:9
+_processStoreLoadResult @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+c @ jquery-3.7.1.min.js:2
+add @ jquery-3.7.1.min.js:2
+i @ dx.all.js:9
+c @ jquery-3.7.1.min.js:2
+fireWith @ jquery-3.7.1.min.js:2
+(анонимная) @ dx.all.js:9
+c @ jquery-3.7.1.min.js:2
+add @ jquery-3.7.1.min.js:2
+(анонимная) @ dx.all.js:9
+c @ jquery-3.7.1.min.js:2
+fireWith @ jquery-3.7.1.min.js:2
+s.<computed> @ jquery-3.7.1.min.js:2
+(анонимная) @ dx.all.js:9
+c @ jquery-3.7.1.min.js:2
+fireWith @ jquery-3.7.1.min.js:2
+l @ jquery-3.7.1.min.js:2
+(анонимная) @ jquery-3.7.1.min.js:2
+qunit.js:3188 Test "Список контрагентов: Инициализация кнопок и грида" took longer than 3000ms, but no timeout was set. Set QUnit.config.testTimeout or call assert.timeout() to avoid a timeout in QUnit 3. https://qunitjs.com/api/config/testTimeout/
+(анонимная) @ qunit.js:3188
