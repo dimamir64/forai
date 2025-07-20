@@ -5,6 +5,7 @@ https://flood.sputnik-germes.ru/tests/frontend/index.php
 sinon.js:3 Uncaught ReferenceError: require is not defined
     at sinon.js:3:19
 (анонимная) @ sinon.js:3
+dx.all.js:9 [Intervention] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://flood.sputnik-germes.ru/js_new/de/icons/dxicons.woff2
 dx.all.js:9 W0017 - Setting the "height" property with a function is deprecated since v21.2. See:
 http://js.devexpress.com/error/23_1/W0017
 log @ dx.all.js:9
@@ -38,7 +39,16 @@ window.initializeKontragentApp @ kontragent_app.js:81
 (анонимная) @ kontragent_app.js:835
 e @ jquery-3.7.1.min.js:2
 t @ jquery-3.7.1.min.js:2
-index.php:132 Test Log: error Ошибка загрузки данных для грида: Ошибка: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''0', '100'' at line 5 0 Object
+setTimeout
+(анонимная) @ jquery-3.7.1.min.js:2
+c @ jquery-3.7.1.min.js:2
+fireWith @ jquery-3.7.1.min.js:2
+fire @ jquery-3.7.1.min.js:2
+c @ jquery-3.7.1.min.js:2
+fireWith @ jquery-3.7.1.min.js:2
+ready @ jquery-3.7.1.min.js:2
+P @ jquery-3.7.1.min.js:2
+index.php:133 Test Log: error Ошибка загрузки данных для грида: Ошибка: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''0', '100'' at line 5 0 {response: {…}, load_options: {…}}
 dx.all.js:9 Uncaught Error: E4021 - The server response does not provide the totalCount value. See:
 http://js.devexpress.com/error/23_1/E4021
     at d (dx.all.js:9:1014729)
@@ -76,5 +86,114 @@ c @ jquery-3.7.1.min.js:2
 fireWith @ jquery-3.7.1.min.js:2
 l @ jquery-3.7.1.min.js:2
 (анонимная) @ jquery-3.7.1.min.js:2
+XMLHttpRequest.send
+send @ jquery-3.7.1.min.js:2
+ajax @ jquery-3.7.1.min.js:2
+load @ kontragent_app.js:99
+y @ dx.all.js:9
+_loadImpl @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+load @ dx.all.js:9
+_loadFromStore @ dx.all.js:9
+n @ dx.all.js:9
+r @ dx.all.js:9
+setTimeout
+t.executeAsync @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+i @ dx.all.js:9
+add @ dx.all.js:9
+load @ dx.all.js:9
+load @ dx.all.js:9
+load @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+c @ jquery-3.7.1.min.js:2
+add @ jquery-3.7.1.min.js:2
+always @ jquery-3.7.1.min.js:2
+g._loadDataSource @ dx.all.js:9
+_loadDataSource @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_loadDataSource @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_refreshDataSource @ dx.all.js:9
+_refreshDataSource @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_refreshDataSource @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+g.init @ dx.all.js:9
+init @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+init @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+init @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+init @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+init @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+init @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+init @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t.each @ dx.all.js:9
+callModuleItemsMethod @ dx.all.js:9
+_init @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_initializeComponent @ dx.all.js:9
+_commitUpdate @ dx.all.js:9
+endUpdate @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+endUpdate @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+_createOptions @ dx.all.js:9
+ctor @ dx.all.js:9
+ctor @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+t @ dx.all.js:9
+(анонимная) @ dx.all.js:9
+each @ jquery-3.7.1.min.js:2
+each @ jquery-3.7.1.min.js:2
+o.default.add.i.default.fn.<computed> @ dx.all.js:9
+window.initializeKontragentApp @ kontragent_app.js:81
+(анонимная) @ kontragent_app.js:835
+e @ jquery-3.7.1.min.js:2
+t @ jquery-3.7.1.min.js:2
+setTimeout
+(анонимная) @ jquery-3.7.1.min.js:2
+c @ jquery-3.7.1.min.js:2
+fireWith @ jquery-3.7.1.min.js:2
+fire @ jquery-3.7.1.min.js:2
+c @ jquery-3.7.1.min.js:2
+fireWith @ jquery-3.7.1.min.js:2
+ready @ jquery-3.7.1.min.js:2
+P @ jquery-3.7.1.min.js:2
 qunit.js:3188 Test "Список контрагентов: Инициализация кнопок и грида" took longer than 3000ms, but no timeout was set. Set QUnit.config.testTimeout or call assert.timeout() to avoid a timeout in QUnit 3. https://qunitjs.com/api/config/testTimeout/
 (анонимная) @ qunit.js:3188
+setTimeout
+internalStop @ qunit.js:3184
+async @ qunit.js:1650
+beforeEach @ kontragent_frontend_tests.js:11
+callHook @ qunit.js:2753
+runHook @ qunit.js:2782
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+(анонимная) @ qunit.js:4224
+Promise.then
+processTaskQueue @ qunit.js:4220
+advanceTaskQueue @ qunit.js:4204
+advance @ qunit.js:4190
+advanceTestQueue @ qunit.js:4250
+advance @ qunit.js:4192
+unblockAndAdvanceQueue @ qunit.js:5584
+Promise.then
+begin @ qunit.js:5630
+(анонимная) @ qunit.js:5576
+setTimeout
+scheduleBegin @ qunit.js:5575
+autostart @ qunit.js:5557
